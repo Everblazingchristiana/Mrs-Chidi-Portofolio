@@ -414,3 +414,19 @@ nav ul {
 
 }
 
+@media screen and (max-width: 900px) {
+    .cart-info p{
+        display: none;
+        flex-direction: column;
+    }
+    .cart-total{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
+    @media screen and (max-width: 1220px){
+        .container{
+            max-width: 95%;
+        
+    }
+}
